@@ -60,10 +60,13 @@ p {
   border-radius: 50%;
   background-color: rgba(128, 128, 128, 0.226);
   padding: 10px;
-  width: 22px;
+  width: 36px;
+  height: 36px;
   display: flex;
   justify-content: center;
   color: hsl(216, 12%, 54%);
+  font-size: 14px;
+  font-weight: 700;
 }
 
 button {
@@ -88,6 +91,11 @@ button {
   background-color: hsl(25, 97%, 53%);
   color: hsl(0, 0%, 100%);
   cursor: pointer;
+}
+
+.button.active {
+  color: #fff;
+  background-color: hsl(217, 12%, 63%);
 }
 
 .submit-container {
